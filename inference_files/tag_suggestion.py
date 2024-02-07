@@ -7,7 +7,7 @@ from xgboost import XGBClassifier
 from nltk.tokenize import MWETokenizer
 from sklearn.preprocessing import MultiLabelBinarizer
 
-folder_path = './nlp_app/inference_files/'  #'/content/drive/MyDrive/Datasets/'
+folder_path = './inference_files/'  #'/content/drive/MyDrive/Datasets/'
 models_folder_path= folder_path + 'xgboost_models/'
 mlb_filename = folder_path + 'mlb_model.sav'
 meta_model_filename = folder_path + 'meta_model_use.json'
